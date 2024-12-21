@@ -1,4 +1,4 @@
-//Here is the modified code with using namespace std; at the top :
+
 
 #include <iostream>
 #include <string>
@@ -72,7 +72,4 @@ int main()
     rectangle.calculateArea();
     cout << "\n\n";
     return 0;
-}
-
-
-//By adding using namespace std; at the top of the code, we can avoid having to prefix standard library elements(such as cout, endl, and string) with std::.This can make the code a bit more concise and easier to read.However, it's worth noting that some programmers prefer to avoid using using namespace std; and instead use the std:: prefix to avoid potential naming conflicts.
+} 
